@@ -10,24 +10,13 @@ This script demonstrates how to use Python and Playwright to scrape and extract 
 - **Command-Line Interface**: Accepts search queries and total listings to scrape via command-line arguments.
 - **Input Flexibility**: Supports reading search queries from either command-line arguments or an input file.
 
-## Prerequisites
-
-- Python 3.x
-- Playwright
-- Pandas
-
 ## Installation
 
-1. Clone this repository:
+1. Install dependencies:
 
 ```bash
-git clone https://github.com/username/repository.git
-```
-
-2. Install dependencies:
-
-```bash
-pip install playwright pandas
+pip install -r requirements.txt
+playwright install chromium
 ```
 
 ## Usage
@@ -62,4 +51,6 @@ This command will scrape information for 50 listings of restaurants near the spe
 - This script is designed for educational purposes and should be used responsibly and in accordance with Google's terms of service.
 - Consider running the script in headless mode (`headless=True`) for production use.
 - Adjust the scraping logic and timeouts as needed based on network conditions and website responsiveness.
+
+
 
