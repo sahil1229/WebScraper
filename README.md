@@ -24,7 +24,7 @@ playwright install chromium
 ### Command-Line Arguments
 
 ```bash
-python google_maps_scraper.py -s "search_query" -t total_listings_to_scrape
+python3 google_maps_scraper.py -s "search_query" -t total_listings_to_scrape
 ```
 
 - `-s` or `--search`: Specify the search query.
@@ -41,7 +41,7 @@ The scraped data will be saved in the `output` directory in both Excel (xlsx) an
 ## Example
 
 ```bash
-python google_maps_scraper.py -s "restaurants near me" -t 50
+python3 google_maps_scraper.py -s "restaurants near me" -t 50
 ```
 
 This command will scrape information for 50 listings of restaurants near the specified location.
