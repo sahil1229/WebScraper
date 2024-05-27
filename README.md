@@ -6,7 +6,7 @@ This script demonstrates how to use Python and Playwright to scrape and extract 
 
 - **Scraping**: Utilizes Playwright to scrape data from Google Maps.
 - **Data Extraction**: Extracts information such as business name, address, website, phone number, reviews count, and reviews average.
-- **Output Formats**: Saves scraped data to both Excel (xlsx) and CSV formats.
+- **Output Formats**: Saves scraped data to both ***Excel*** (xlsx) and ***CSV*** formats.
 - **Command-Line Interface**: Accepts search queries and total listings to scrape via command-line arguments.
 - **Input Flexibility**: Supports reading search queries from either command-line arguments or an input file.
 
